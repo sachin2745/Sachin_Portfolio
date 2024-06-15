@@ -3,7 +3,19 @@ export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}',
     'node_modules/flowbite-react/lib/esm/**/*.js'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#FF3131",
+        charcol_black: "#2a1617",
+        secondary: "#eb1f00",
+      },
+    },
+    fontFamily: {
+      Quicksand: ["Quicksand", "sans-serif"],
+      LavishlyYours: ["Lavishly Yours", "cursive"],
+      RumRaisin : ["Rum Raisin", "sans-serif"],
+      Nosifer :["Nosifer", "sans-serif"],
+    },
   },
   plugins: [require('flowbite/plugin')],
 }
