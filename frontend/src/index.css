@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Agnostic;
+  src: url(./font/Agnostic.otf);
+}
+@font-face {
+  font-family: Rolasand;
+  src: url(./font/Rolasand.ttf);
+}
+@font-face {
+  font-family: Wondershine;
+  src: url(./font/Wondershine.otf);
+}
+@font-face {
+  font-family: Northwell;
+  src: url(./font/NorthwellAlt.ttf);
+}
