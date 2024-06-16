@@ -19,3 +19,11 @@
   font-family: Northwell;
   src: url(./font/NorthwellAlt.ttf);
 }
+@font-face {
+  font-family: Bengittan;
+  src: url(./font/Bengittan.otf);
+}
+@font-face {
+  font-family: Stagera;
+  src: url(./font/Stagera.otf);
+}

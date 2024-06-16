@@ -5,8 +5,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Carousel } from "flowbite-react";
 import { Accordion } from "flowbite-react";
-import Navbar from './components/Navbar/page';
-import Footer from './components/Footer/page';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
 
