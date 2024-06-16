@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}',
+  content: ["./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
     'node_modules/flowbite-react/lib/esm/**/*.js'],
   theme: {
     extend: {
@@ -13,8 +15,8 @@ export default {
     fontFamily: {
       Quicksand: ["Quicksand", "sans-serif"],
       LavishlyYours: ["Lavishly Yours", "cursive"],
-      RumRaisin : ["Rum Raisin", "sans-serif"],
-      Nosifer :["Nosifer", "sans-serif"],
+      RumRaisin: ["Rum Raisin", "sans-serif"],
+      Nosifer: ["Nosifer", "sans-serif"],
     },
   },
   plugins: [require('flowbite/plugin')],
