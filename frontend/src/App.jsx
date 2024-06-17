@@ -7,12 +7,14 @@ import { Carousel } from "flowbite-react";
 import { Accordion } from "flowbite-react";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Contact />
       {/* <div className='flex flex-col justify-center  '>
         <h1 className='  mt-5 font-Quicksand text-charcol_black  text-3xl '>Sachin</h1>
         <h1 className=' a mt-5  text-primary  text-3xl '>Sachin</h1>

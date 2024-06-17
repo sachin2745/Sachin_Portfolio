@@ -19,7 +19,7 @@ const Footer = () => {
                     <h3>Designed and Developed by Sachin</h3>
                 </div>
                 <div md="4" className="footer-copywright text-white font-Preahvihear">
-                    <h3> &copy; {year} Sachin_Portfolio.</h3>
+                    <h3> &copy; {year} Sachin_Portfolio. All rights reserved.</h3>
                 </div>
                 <div md="4" className=" footer-body">
                     <ul className="grid gap-x-8 grid-cols-4  footer-icons">

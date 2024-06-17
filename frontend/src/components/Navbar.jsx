@@ -1,5 +1,6 @@
 import React from 'react'
 import { Fragment, useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
     Dialog,
     DialogPanel,
@@ -116,6 +117,7 @@ const Navbar = () => {
                     </a>
                     <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white hover:border-b-4 hover:border-white">
                         Experience
+                        
                     </a>
                     <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white hover:border-b-4 hover:border-white">
                         Project
@@ -175,12 +177,12 @@ const Navbar = () => {
                                         </>
                                     )}
                                 </Disclosure>
-                                <a
+                                <Link
                                     href="#"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     About
-                                </a>
+                                </Link>
                                 <a
                                     href="#"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
