@@ -3,8 +3,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Carousel } from "flowbite-react";
-import { Accordion } from "flowbite-react";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -14,6 +12,7 @@ function App() {
   return (
     <>
       <Navbar />
+     
       <Contact />
       {/* <div className='flex flex-col justify-center  '>
         <h1 className='  mt-5 font-Quicksand text-charcol_black  text-3xl '>Sachin</h1>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Fragment, useState } from 'react'
+import './navbar.css'
 import { Link } from 'react-router-dom'
 import {
     Dialog,
@@ -112,17 +113,17 @@ const Navbar = () => {
               </PopoverPanel>
             </Transition> */}
                     </Popover>
-                    <a href="#" className="font-Englebert tracking-wider text-xl  font-semibold leading-6 text-white hover:border-b-4 hover:border-white">
+                    <a href="#" className="font-Englebert tracking-wider text-xl  font-semibold leading-6 text-white ">
                         About
                     </a>
-                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white hover:border-b-4 hover:border-white">
+                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Experience
                         
                     </a>
-                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white hover:border-b-4 hover:border-white">
+                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Project
                     </a>
-                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white hover:border-b-4 hover:border-white">
+                    <a href="#Contact" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Contact Us
                     </a>
                 </PopoverGroup>
