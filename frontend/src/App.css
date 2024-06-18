@@ -1,18 +1,29 @@
-.a{
+.a {
   font-family: Agnostic;
 }
-.b{
+
+.b {
   font-family: Rolasand;
 }
-.c{
+
+.c {
   font-family: Wondershine;
 }
-.d{
+
+.d {
   font-family: Northwell;
 }
-.e{
+
+.e {
   font-family: Stagera;
 }
-.f{
+
+.f {
   font-family: Bengittan;
+}
+
+.years:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect */
+  cursor: pointer;
 }
