@@ -1,4 +1,4 @@
-.a {
+.agnostic {
   font-family: Agnostic;
 }
 
@@ -30,3 +30,5 @@
 .edu{
   filter:drop-shadow(0 0 0.75rem #FF0000);
 }
+
+

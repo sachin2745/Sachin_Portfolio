@@ -6,12 +6,14 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Education from './components/Education';
 import Skills from './components/Skills';
+import Project from './components/Project';
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Project />
       <Skills />
       <Education />
       <Contact />

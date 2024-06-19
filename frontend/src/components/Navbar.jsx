@@ -113,17 +113,17 @@ const Navbar = () => {
               </PopoverPanel>
             </Transition> */}
                     </Popover>
-                    <a href="#" className="font-Englebert tracking-wider text-xl  font-semibold leading-6 text-white ">
+                    <a href="#" className="ba font-Englebert tracking-wider text-xl  font-semibold leading-6 text-white ">
                         About
                     </a>
-                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
+                    <a href="#" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Experience
                         
                     </a>
-                    <a href="#" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
+                    <a href="#" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Project
                     </a>
-                    <a href="#Contact" className="font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
+                    <a href="#Contact" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Contact Us
                     </a>
                 </PopoverGroup>
