@@ -11,7 +11,7 @@ const Footer = () => {
     let year = date.getFullYear();
 
     return (
-        <div style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }} className=' '>
+        <div style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }} className='sticky top-0 '>
             {/* <img className='w-screen h-auto' src="myimg.png" alt="pic" /> */}
             <div className="flex h-10 p-5 justify-between items-center footer">
 
@@ -19,7 +19,7 @@ const Footer = () => {
                     <h3>Designed and Developed by Sachin</h3>
                 </div>
                 <div md="4" className="footer-copywright text-white font-Preahvihear">
-                    <h3> &copy; {year} Sachin_Portfolio. All rights reserved.</h3>
+                    <h3> &copy; {year} Sachin_Portfolio.</h3>
                 </div>
                 <div md="4" className=" footer-body">
                     <ul className="grid gap-x-8 grid-cols-4  footer-icons">

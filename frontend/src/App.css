@@ -24,6 +24,9 @@
 
 .years:hover {
   transform: scale(1.1);
-  transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect */
+  transition: transform 0.2s ease-in-out; /* Adds a smooth transition effect */
   cursor: pointer;
+}
+.edu{
+  filter:drop-shadow(0 0 0.75rem #FF0000);
 }

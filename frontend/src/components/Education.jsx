@@ -2,8 +2,8 @@ import React from 'react'
 
 const Education = () => {
     return (
-        <section>
-            <div className="mx-auto bg-tertiary  max-w-screen-1xl px-4 py-8 sm:px-6 lg:px-8">
+        <section className='sticky top-0 '>
+            <div className="mx-auto bg-tertiary  max-w-screen-1xl px-4 py-8 sm:px-6 lg:px-8 mb-36">
                 <h2 className="text-3xl text-white font-Rammetto_One  ml-20   text-start sm:text-4xl">
                     Education
                 </h2>
@@ -12,9 +12,9 @@ const Education = () => {
                     <div className="relative z-10 lg:py-10">
                         <div className="relative h-64 sm:h-80 mt-20 lg:h-full">
                             <img
-                                alt=""
+                                alt="Education"
                                 src="edu.png"
-                                className="absolute inset-0 h-full w-full object-cover"
+                                className="absolute edu inset-0 h-full w-full object-cover"
                             />
                         </div>
                     </div>
@@ -25,14 +25,14 @@ const Education = () => {
                         <div className="p-8 sm:p-16 lg:p-24 -mb-40   ">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex  years  transition hover:shadow-xl">
+                                className="flex group   years transition hover:shadow-xl">
                                 <div className="rotate-180 p-2 b bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
-                                        className="flex  items-center justify-between gap-4 text-xs font-bold uppercase text-white"
+                                        className="flex group-hover:text-primary   items-center justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2020</span>
-                                        <span className="w-px flex-1 bg-primary/50"></span>
+                                        <span className="w-px flex-1 bg-primary/50 group-hover:bg-white"></span>
                                         <span>2023</span>
                                     </time>
                                 </div>
@@ -72,14 +72,14 @@ const Education = () => {
                         <div className="p-8 sm:p-16 lg:p-24 -mb-40 ">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex years  transition hover:shadow-xl">
+                                className="flex years group transition hover:shadow-xl">
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
-                                        className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-white"
+                                        className="flex items-center group-hover:text-primary  justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2019</span>
-                                        <span className="w-px flex-1 bg-primary/50"></span>
+                                        <span className="w-px flex-1 bg-primary/50 group-hover:bg-white "></span>
                                         <span>2020</span>
                                     </time>
                                 </div>
@@ -96,13 +96,13 @@ const Education = () => {
                                     <div className="  p-4  sm:p-6">
                                         <div >
                                             <h3 className="font-medium font-Josefin_Sans uppercase text-white">
-                                            Higher Secondary Certificate<br/>
-                                            12th ISC BOARD
+                                                Higher Secondary Certificate<br />
+                                                12th ISC BOARD
                                             </h3>
                                         </div>
 
                                         <p className="mt-2 c tracking-wider font-normal line-clamp-3 text-sm/relaxed text-white">
-                                        St. Joseph Montessori School
+                                            St. Joseph Montessori School
                                         </p>
                                     </div>
 
@@ -120,14 +120,14 @@ const Education = () => {
                         <div className="p-8 sm:p-16 lg:p-24 -mb-40 ">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex  years transition hover:shadow-xl">
+                                className="flex  years group transition hover:shadow-xl">
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
-                                        className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-white"
+                                        className="flex items-center group-hover:text-primary  justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2017</span>
-                                        <span className="w-px flex-1 bg-primary/50"></span>
+                                        <span className="w-px flex-1 bg-primary/50 group-hover:bg-white"></span>
                                         <span>2018</span>
                                     </time>
                                 </div>
@@ -144,13 +144,13 @@ const Education = () => {
                                     <div className="  p-4  sm:p-6">
                                         <div >
                                             <h3 className="font-medium font-Josefin_Sans uppercase text-white">
-                                            Secondary School Certificate<br/>
-                                            10th ICSE BOARD
+                                                Secondary School Certificate<br />
+                                                10th ICSE BOARD
                                             </h3>
                                         </div>
 
                                         <p className="mt-2 c tracking-wider font-normal line-clamp-3 text-sm/relaxed text-white">
-                                        St. Joseph Montessori School
+                                            St. Joseph Montessori School
                                         </p>
                                     </div>
 

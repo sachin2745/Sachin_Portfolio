@@ -26,7 +26,7 @@ const Contact = () => {
         onSubmit: (values) => {
             console.log(values);
 
-            fetch('http://localhost:5000/contactForm/add/', {
+            fetch(`${import.meta.env.VITE_API_URL}/contactForm/add/`, {
                 method: 'POST',
                 body: JSON.stringify(values),
                 headers: {
@@ -56,7 +56,7 @@ const Contact = () => {
     return (
 
         <>
-            <div className=" flex  p-20 bg-tertiary">
+            <div className=" flex  p-20 bg-tertiary sticky top-0 ">
                 <section className="bg-tertiary ">
                     <div className="py-8 lg:py-10 px-4 mx-auto max-w-screen-md">
                         <h2 className="mb-4 text-4xl text-start text-white font-Rammetto_One  tracking-wider">

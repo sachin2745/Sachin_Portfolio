@@ -5,12 +5,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Education from './components/Education';
+import Skills from './components/Skills';
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Skills />
       <Education />
       <Contact />
       {/* <div className='flex flex-col justify-center  '>
