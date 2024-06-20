@@ -31,4 +31,15 @@
   filter:drop-shadow(0 0 0.75rem #FF0000);
 }
 
-
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 5px #FF3131,
+    0 0 10px #FF3131,
+    0 0 20px #FF3131,
+    0 0 40px #FF3131,
+    0 0 80px #FF3131,
+    0 0 90px #FF3131,
+    0 0 100px #FF3131,
+    0 0 150px #FF3131;
+}

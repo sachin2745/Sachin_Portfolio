@@ -1,0 +1,21 @@
+[
+    {
+      "id": "0",
+      "title": " MERN Stack Development Intern",
+      "company": "Digipodium",
+      "description": "In my recent role, I developed and implemented the 'Voice and Tour Navigator,' a MERN stack plugin system that enhances website interactivity and accessibility with voice commands. Designed user-friendly guided tour features for a smooth and engaging user experience. This plugin empowers clients to easily integrate advanced features into their websites.",
+      "timePeriod": "Jan'24 - May'24",
+      "timePerioddetail": "January 2024 - May 2024",
+      "img": "digipodium.png"
+    },
+    {
+      "id": "1",
+      "title": "SEO Intern",
+      "company": "Glatt Pharmaceuticals Private Limited",
+      "description": "At Glatt Pharma, as an SEO Executive Intern, I boosted the company's online presence and led digital marketing efforts. I gained hands-on expertise in on-page and off-page SEO, mastering web content optimization, keyword research, and improving search engine rankings. My skills extend to technical SEO principles, making me a well-rounded contributor.",
+      "timePeriod": "Aug'23 - Nov'23",
+      "timePerioddetail": "August 2023 - November 2023",
+      "img": "glatt_pharma_logo.png"
+    }
+   
+  ]

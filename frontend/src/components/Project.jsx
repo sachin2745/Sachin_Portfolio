@@ -50,13 +50,10 @@ const Project = () => {
                     Projects - My Recent <span className='text-primary b font-bold text-3xl'>Works</span>
                 </h2>
             </div>
-            <div className="mx-auto max-w-screen-xl  px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+            <div className="mx-auto max-w-screen-xl  px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
 
-                <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-                    <div className="grid place-content-center rounded bg-gray-100 p-6 sm:p-8">
+                <div className="grid grid-cols-1 gap-4  lg:grid-cols-3 lg:items-stretch">
 
-                        <img className='h-full w-full object-cover aspect-square' src="project.jpg" alt="project pic" />
-                    </div>
 
                     <div className="lg:col-span-2 lg:py-8">
                         <ul className="grid grid-cols-2 gap-4">
@@ -297,7 +294,14 @@ const Project = () => {
                             </li>
                         </ul>
                     </div>
+                    <div className="grid place-content-center  aspect-square  rounded bg-white p-6 sm:p-8">
+
+                        <img className='h-full object-cover aspect-square  '
+                            src="project.jpg" alt="project pic" />
+
+                    </div>
                 </div>
+
             </div>
         </section>
     )

@@ -49,7 +49,7 @@ const Navbar = () => {
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1 cursor-pointer">
                     <div href="#" className="-m-1.5 p-1.5">
-                        <h1 style={{ fontFamily: "Northwell" }} className="h-8 w-auto  text-6xl text-white">Sachin</h1>
+                        <h1 style={{ fontFamily: "Northwell" }} className="h-8 w-auto  text-6xl neon">Sachin</h1>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </div>
                 </div>

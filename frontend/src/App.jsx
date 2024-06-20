@@ -7,12 +7,14 @@ import Contact from './components/Contact';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Project from './components/Project';
+import Experience from './components/Experience';
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Experience />
       <Project />
       <Skills />
       <Education />
