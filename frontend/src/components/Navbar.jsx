@@ -48,10 +48,10 @@ const Navbar = () => {
         <header className="sticky top-0" style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}>
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1 cursor-pointer">
-                    <div href="#" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5 p-1.5">
                         <h1 style={{ fontFamily: "Northwell" }} className="h-8 w-auto  text-6xl neon">Sachin</h1>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
-                    </div>
+                    </a>
                 </div>
                 <div className="flex lg:hidden">
                     <button
@@ -113,14 +113,14 @@ const Navbar = () => {
               </PopoverPanel>
             </Transition> */}
                     </Popover>
-                    <a href="#" className="ba font-Englebert tracking-wider text-xl  font-semibold leading-6 text-white ">
+                    <a href="#About" className="ba font-Englebert tracking-wider text-xl  font-semibold leading-6 text-white ">
                         About
                     </a>
-                    <a href="#" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
+                    <a href="#experiences" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Experience
                         
                     </a>
-                    <a href="#" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
+                    <a href="#Project" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">
                         Project
                     </a>
                     <a href="#Contact" className="ba font-Englebert tracking-wider text-xl font-semibold leading-6 text-white ">

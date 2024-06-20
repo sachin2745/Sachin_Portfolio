@@ -43,3 +43,9 @@
     0 0 100px #FF3131,
     0 0 150px #FF3131;
 }
+
+.black_grad{
+  background: linear-gradient(45deg, #000000, #222222, #333333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

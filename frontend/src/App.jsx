@@ -8,13 +8,15 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Project from './components/Project';
 import Experience from './components/Experience';
+import Experiences from './components/Experiences';
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Experience />
+      <Experiences />
+      {/* <Experience /> */}
       <Project />
       <Skills />
       <Education />
