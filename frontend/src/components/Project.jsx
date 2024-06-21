@@ -45,8 +45,8 @@ const Project = () => {
 
     return (
         <section className='bg-tertiary sticky top-0 pb-40'>
-            <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  pt-10">
-                <h2 className="text-3xl text-white font-Rammetto_One  -ml-10  text-start sm:text-4xl">
+            <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  pt-20">
+                <h2 className="text-3xl text-white font-Rammetto_One  -ml-10  text-start sm:text-4xl mb-3">
                     Projects - My Recent <span className='text-primary b font-bold text-3xl'>Works</span>
                 </h2>
             </div>
@@ -62,7 +62,7 @@ const Project = () => {
                                     <img
                                         src="ownyourcap.png"
                                         alt=""
-                                        className="  h-full w-full aspect-[4/3] rounded "
+                                        className="  h-full w-full aspect-video mt-12 rounded "
                                     />
 
                                     <div className="mt-3 ">
@@ -178,7 +178,7 @@ const Project = () => {
                                     <img
                                         src="voicetournavigator.png"
                                         alt=""
-                                        className=" h-full w-full aspect-[4/3] rounded"
+                                        className=" h-full w-full aspect-video mt-12 rounded"
                                     />
 
                                     <div className="mt-3 ">

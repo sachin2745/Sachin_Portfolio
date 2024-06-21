@@ -17,7 +17,7 @@ const experiences = () => {
                     {/* product - start */}
                     <div className="grid grid-cols-2   group  ">
                         <div className='ml-60 z-10  py-10 bg-black w-20  group-hover:bg-[#28282B] transition ease-in-out  duration-300 place-content-end grid  place-items-end'>
-                            <h5 className="text-8xl font-Englebert text-[#2C3539] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
+                            <h5 className="text-8xl font-Englebert text-[#545454] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
                                 2024
                             </h5>
                             <h5 className="text-xl font-Jost text-[#E5E4E2] font-bold tracking-tight  ">
@@ -41,7 +41,7 @@ const experiences = () => {
                     {/* product - start */}
                     <div className="grid grid-cols-2   group  ">
                         <div className='ml-60  z-10  py-10 bg-black w-20  group-hover:bg-[#28282B] transition ease-in-out  duration-300 place-content-end grid  place-items-end'>
-                            <h5 className="text-8xl font-Englebert text-[#2C3539] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
+                            <h5 className="text-8xl font-Englebert text-[#545454] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
                                 2023
                             </h5>
                             <h5 className="text-xl font-Josefin_Sans text-[#E5E4E2] font-bold tracking-tight  ">
