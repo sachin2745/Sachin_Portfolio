@@ -53,7 +53,7 @@ const Education = () => {
                                             </h3>
                                         </div>
 
-                                        <p className="mt-2 c tracking-wider font-normal line-clamp-3  text-sm/relaxed text-white">
+                                        <p className="mt-2  font-Josefin_Sans text-sm tracking-wider font-normal line-clamp-3  text-white">
                                             Sri Sharda Group Of Professional Studies
                                         </p>
                                     </div>
@@ -101,7 +101,7 @@ const Education = () => {
                                             </h3>
                                         </div>
 
-                                        <p className="mt-2 c tracking-wider font-normal line-clamp-3 text-sm/relaxed text-white">
+                                        <p className="mt-2 font-Josefin_Sans text-md tracking-wider font-normal line-clamp-3  text-white">
                                             St. Joseph Montessori School
                                         </p>
                                     </div>
@@ -149,7 +149,7 @@ const Education = () => {
                                             </h3>
                                         </div>
 
-                                        <p className="mt-2 c tracking-wider font-normal line-clamp-3 text-sm/relaxed text-white">
+                                        <p className="mt-2  font-Josefin_Sans text-md tracking-wider font-normal line-clamp-3 text-white">
                                             St. Joseph Montessori School
                                         </p>
                                     </div>

@@ -69,7 +69,7 @@ const Contact = () => {
                             I'm open to opportunities that match my skills and interests. Your thoughts matter, and I look forward to connecting with you.
                             My inbox is always <span className="font-Allura text-3xl  text-primary">open.</span>
                         </p>
-                        <form onSubmit={(formik.handleSubmit)} autocomplete="off" className="space-y-8 font-SirinStencil">
+                        <form onSubmit={(formik.handleSubmit)} autocomplete="off" className="space-y-8 font-Josefin_Sans">
                             <div class="relative z-0 w-full mb-5 group">
                                 <input type="text"
                                     id="name"
