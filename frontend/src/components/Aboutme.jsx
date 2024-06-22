@@ -1,5 +1,4 @@
 import React from 'react'
-import './aboutme.css'
 
 const Aboutme = () => {
     return (
@@ -21,18 +20,20 @@ const Aboutme = () => {
 
                     <div className="pt-20 lg:flex-grow md:w-1/2  lg:pl-40 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h1 className="title-font  sm:text-4xl text-3xl mb-4 font-Rammetto_One text-white">
-                            Know Who  I  <span className='text-primary '>Am</span>     <span className='text-primary e font-bold text-5xl'>!</span>
+                            Namaste  <span className='text-primary '>Ji</span>     <span className='text-primary e font-bold text-5xl'>,</span><br />
+                            I am Sachin <span className='text-primary  '> Kumar,</span>
                         </h1>
-                        <p className="mb-4 font-Josefin_Sans text-lg leading-relaxed text-white max-w-screen-sm">
-                            <span className='text-primary font-Jost font-bold '>Sachin Kumar</span>, a recent  <span className='text-primary font-Jost font-bold '>Computer Applications graduate</span>, is here to make a splash in the IT sector!
+                       
+                        <p className="mb-4 font-Preahvihear text-md leading-relaxed text-white max-w-screen-sm">
+                            A recent  <span className='text-primary font-Preahvihear font-normal '>Computer Applications graduate</span>, is here to make a splash in the IT sector!
                             My passion for technology is undeniable, and I'm eager to leverage my fresh perspective and diverse skillset to propel a company forward.
-                            With a strong foundation in  <span className='text-primary font-Jost  font-bold l'>MERN Stack Development</span> (React.js, Node.js, Express.js, MongoDB), I'm not just proficient – I'm obsessed with crafting user-centric web experiences that captivate and engage.
+                            With a strong foundation in  <span className='text-primary font-Preahvihear  font-normal '>MERN Stack Development</span> (React.js, Node.js, Express.js, MongoDB), I'm not just proficient – I'm obsessed with crafting user-centric web experiences that captivate and engage.
                         </p>
-                        <p className='text-white font-Josefin_Sans text-lg max-w-screen-sm'>
+                        <p className='text-white font-Preahvihear text-md max-w-screen-sm'>
                             But my talents extend beyond code. I possess SEO expertise and design prowess with Canva, making me a well-rounded asset for any team.
                         </p>
-                        <p className=' font-Josefin_Sans text-lg text-white mt-2 max-w-screen-sm'>
-                            Are you ready to create something extraordinary together? Let's collaborate and turn innovative ideas into impactful  <span className='text-primary font-Jost font-bold '>realities!</span>
+                        <p className=' font-Preahvihear text-md text-white mt-2 max-w-screen-sm'>
+                            Are you ready to create something extraordinary together? Let's collaborate and turn innovative ideas into impactful  <span className='text-primary font-Preahvihear font-normal '>realities!</span>
                         </p>
                     </div>
                 </div>

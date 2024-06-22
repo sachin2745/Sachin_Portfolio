@@ -11,12 +11,14 @@ import Experience from './components/Experience';
 import Experiences from './components/Experiences';
 import HireMe from './components/HireMe';
 import Aboutme from './components/Aboutme';
+import Hero from './components/Hero';
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Hero />
       <Aboutme />
       <HireMe />
       <Experiences />
