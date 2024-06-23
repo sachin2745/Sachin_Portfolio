@@ -1,20 +1,29 @@
 import React from 'react';
 import './hero.css';
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 const Hero = () => {
+
+    const [typeEffect] = useTypewriter({
+        words: ['Developer', 'Developer', 'Developer'],
+        loop: {},
+        typeSpeed: 300,
+        delaySpeed: 280
+      })
+    
     return (
         <section className=" sticky top-0  bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat" >
             <div className="text-white body-font max-w-screen-xl pt-40  pb-56">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center">
-                        <p className="mb-2 leading-relaxed uppercase font-Preahvihear">
+                        <p className="mb-2 leading-relaxed uppercase font-bold font-Preahvihear">
                             Hello There, <br /> Welcome to   <span className=' text-primary '>My site</span>
                         </p>
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
                             I'm <br />   Sachin <span className=' text-primary '>Kumar</span>
                         </h1>
                         <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
-                            A <br /> Full Stack <span className='text-3xl text-primary b'>Developer</span>
+                            A <br /> Full Stack <span className=' text-primary '>{typeEffect} </span>
                         </h2>
                         <div className="loader"></div>
 
