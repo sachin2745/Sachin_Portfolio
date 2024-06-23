@@ -7,7 +7,7 @@ const experiences = () => {
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8 pt-16 pb-40">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">
-                    <h2 className="mb-4 ml-20 font-Rammetto_One text-start text-2xl  text-white md:mb-6 lg:text-4xl">
+                    <h2 className="mb-4 ml-20 font-Rammetto_One text-start text-2xl  text-white md:mb-6 lg:text-3xl">
                         Developer     <span className='text-6xl f text-primary font-bold'>Experience</span>
                     </h2>
 
@@ -57,7 +57,7 @@ const experiences = () => {
                                 Glatt Pharmaceuticals Private <br /> Limited
                             </h5>
                             <p className="font-light font-Englebert tracking-wider  text-white text-md text-start">
-                                At Glatt Pharma, as an SEO Executive Intern, I boosted the company's online presence and led digital marketing efforts. I gained hands-on expertise in on-page and off-page SEO, mastering web content optimization, keyword research, and improving search engine rankings. My skills extend to technical SEO principles, making me a well-rounded contributor.                            </p>
+                                At Glatt Pharma, as an SEO Executive Intern, I boosted the company&apos;s online presence and led digital marketing efforts. I gained hands-on expertise in on-page and off-page SEO, mastering web content optimization, keyword research, and improving search engine rankings. My skills extend to technical SEO principles, making me a well-rounded contributor.                            </p>
                         </div>
                     </div>
                     {/* product - end */}

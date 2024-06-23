@@ -5,8 +5,8 @@ const Skills = () => {
     return (
         <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0 ">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8 mb-20">
-                <h2 className="mb-8 text-3xl text-white font-Rammetto_One tracking-wider  text-start ml-20  font-bold  md:mb-12 lg:text-4xl">
-                    Skills  <span className='b text-primary text-3xl font-bold ' > Expertise</span>
+                <h2 className="mb-8 text-3xl text-white font-Rammetto_One tracking-wider  text-start ml-20    md:mb-12 lg:text-3xl">
+                    Skills  <span className='b text-primary text-2xl font-bold ' > Expertise</span>
                 </h2>
                 <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-6">
                     {/* product - start */}
@@ -58,7 +58,7 @@ const Skills = () => {
                                             Frontend  Libraries
                                         </h2>
                                         <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
-                                            Modern web tools for stylish interfaces: <br />  Bootstrap 5, <br />Mantine UI,<br /> Tailwind CSS
+                                            Modern web tools for stylish interfaces: <br />  Bootstrap 5, <br />Mantine UI,<br /> Tailwind CSS.
                                         </p>
 
                                     </div>
@@ -156,7 +156,7 @@ const Skills = () => {
                                         </h2>
                                         <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
                                             Proficient in Git and GitHub for source code
-                                            management, collaboration, and version tracking
+                                            management, collaboration, and version tracking.
                                         </p>
 
                                     </div>

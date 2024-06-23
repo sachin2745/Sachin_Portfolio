@@ -6,8 +6,8 @@ const HireMe = () => {
         <>
             <section className='sticky top-0 bg-tertiary'>
                 {/* Container */}
-                <h2 className='text-white font-Rammetto_One  ml-28 pt-14 text-4xl'>
-                    Hire <span className='text-primary text-6xl f font-bold'>Me</span>
+                <h2 className='text-white font-Rammetto_One  ml-28 pt-14 text-3xl'>
+                    Hire <span className='text-primary text-5xl f font-bold'>Me</span>
                 </h2>
                 <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  pb-40 xl:max-w-6xl">
                     {/* Image Column */}

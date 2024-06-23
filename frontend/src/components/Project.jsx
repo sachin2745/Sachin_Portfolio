@@ -46,8 +46,8 @@ const Project = () => {
     return (
         <section className='bg-tertiary sticky top-0 pb-40'>
             <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  pt-20">
-                <h2 className="text-3xl text-white font-Rammetto_One  -ml-10  text-start sm:text-4xl mb-3">
-                    Projects - My Recent <span className='text-primary b font-bold text-3xl'>Works</span>
+                <h2 className="text-3xl text-white font-Rammetto_One  -ml-10  text-start sm:text-3xl mb-3">
+                    Projects - My Recent <span className='text-primary b font-bold text-2xl'>Works</span>
                 </h2>
             </div>
             <div className="mx-auto max-w-screen-xl  px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
@@ -158,7 +158,7 @@ const Project = () => {
 
                                                 <h6 className="font-Englebert text-md tracking-wider font-bold underline underline-offset-2 decoration-1">Description</h6>
                                                 <p className="font-Jost sm:text-md text-md !leading-7">
-                                                    I developed "OwnYourCap," a comprehensive e-commerce platform for branded caps using the MERN stack. The platform features seamless browsing, secure payment processing, and efficient shipping functionalities, ensuring an exceptional user experience.                                                </p>
+                                                    I developed &quot;OwnYourCap,&quot; a comprehensive e-commerce platform for branded caps using the MERN stack. The platform features seamless browsing, secure payment processing, and efficient shipping functionalities, ensuring an exceptional user experience.                                                </p>
 
 
                                                 <div className="flex justify-end font-Jost">

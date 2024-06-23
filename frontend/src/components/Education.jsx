@@ -4,7 +4,7 @@ const Education = () => {
     return (
         <section className='sticky top-0 '>
             <div  className="mx-auto bg-tertiary   max-w-screen-1xl px-4 py-8 sm:px-6 lg:px-8 mb-36">
-                <h2 className="text-3xl text-white font-Rammetto_One  ml-20   text-start sm:text-4xl">
+                <h2 className="text-3xl text-white font-Rammetto_One  ml-20   text-start sm:text-3xl">
                     Education
                 </h2>
                 <div className="grid grid-cols-1 lg:h-full lg:grid-cols-2 -mt-10">

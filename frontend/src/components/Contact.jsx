@@ -58,19 +58,19 @@ const Contact = () => {
             <div className=" flex  p-20 bg-tertiary sticky top-0 ">
                 <section className="bg-tertiary ">
                     <div className="py-8 lg:py-10 px-4 mx-auto max-w-screen-md">
-                        <h2 className="mb-4 text-4xl text-start text-white font-Rammetto_One  tracking-wider">
-                            Contact <span className="font-Allura text-7xl  text-primary">Us</span>
+                        <h2 className="mb-1 text-3xl text-start text-white font-Rammetto_One  tracking-wider">
+                            Contact <span className="font-Allura text-6xl  text-primary">Us</span>
                         </h2>
-                        <p className="mb-1 lg:mb-1 font-normal text-start text-white sm:text-xl font-Jost   tracking-wide">
+                        <p className="mb-1 lg:mb-1 font-normal text-start text-white sm:text-lg font-Jost   tracking-wide">
                             Thank you for visiting my <span className="font-Allura text-4xl  text-primary">portfolio!</span>
                         </p>
-                        <p className="mb-8 lg:mb-8 font-light text-start text-white sm:text-xl font-Jost  tracking-wide">
+                        <p className="mb-8 lg:mb-8 font-light text-start text-white sm:text-lg font-Jost  tracking-wide">
                             If you have questions, project ideas, or just want to say hello, please reach out.
-                            I'm open to opportunities that match my skills and interests. Your thoughts matter, and I look forward to connecting with you.
+                            I&apos;m open to opportunities that match my skills and interests. Your thoughts matter, and I look forward to connecting with you.
                             My inbox is always <span className="font-Allura text-3xl  text-primary">open.</span>
                         </p>
-                        <form onSubmit={(formik.handleSubmit)} autocomplete="off" className="space-y-8 font-Josefin_Sans">
-                            <div class="relative z-0 w-full mb-5 group">
+                        <form onSubmit={(formik.handleSubmit)} autoComplete="off" className="space-y-8 font-Josefin_Sans">
+                            <div className="relative z-0 w-full mb-5 group">
                                 <input type="text"
                                     id="name"
                                     value={formik.values.name}
@@ -81,7 +81,7 @@ const Contact = () => {
                                 {formik.touched.name && formik.errors.name ? (
                                     <div className="text-red-500 text-md">{formik.errors.name}</div>
                                 ) : null}
-                                <label htmlFor="name" className="peer-focus:font-medium absolute text-xl text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                <label htmlFor="name" className="peer-focus:font-medium absolute text-lg text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
                                     Name
                                 </label>
                             </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                                 {formik.touched.email && formik.errors.email ? (
                                     <div className="text-red-500 text-md">{formik.errors.email}</div>
                                 ) : null}
-                                <label htmlFor="email" className="peer-focus:font-medium absolute text-xl text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                <label htmlFor="email" className="peer-focus:font-medium absolute text-lg text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
                                     Email address
                                 </label>
                             </div>
@@ -110,7 +110,7 @@ const Contact = () => {
                                 {formik.touched.subject && formik.errors.subject ? (
                                     <div className="text-red-500 text-md">{formik.errors.subject}</div>
                                 ) : null}
-                                <label htmlFor="subject" className="peer-focus:font-medium absolute text-xl text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                <label htmlFor="subject" className="peer-focus:font-medium absolute text-lg text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
                                     Subject
                                 </label>
                             </div>
@@ -125,7 +125,7 @@ const Contact = () => {
                                 {formik.touched.message && formik.errors.message ? (
                                     <div className="text-red-500 text-md">{formik.errors.message}</div>
                                 ) : null}
-                                <label htmlFor="message" className="peer-focus:font-medium absolute text-xl text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                                <label htmlFor="message" className="peer-focus:font-medium absolute text-lg text-white  duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-white  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
                                     Your message
                                 </label>
                             </div>
@@ -134,7 +134,7 @@ const Contact = () => {
 
                             <button
                                 type="submit"
-                                className="py-3 px-5 text-md font-bold font-Jost text-center text-black rounded-lg bg-primary sm:w-fit hover:bg-primary-800 focus:ring-2 focus:outline-none focus:ring-white "
+                                className="py-3 px-5 text-md font-bold font-Jost text-center text-white hover:border-b-2 hover:border-white rounded-lg bg-primary sm:w-fit hover:bg-primary-800 focus:ring-b-2 focus:outline-none focus:ring-white "
                             >
                                 Send message
                             </button>
@@ -173,7 +173,7 @@ const Contact = () => {
                                     Contact
                                 </h5>
                                 <p className="mb-3 font-normal text-white font-Jost  tracking-wider">
-                                    Feel free to give me a call—I'm just a phone ring away!<br />
+                                    Feel free to give me a call—I&apos;m just a phone ring away!<br />
                                     +91 6394789648
                                 </p>
                             </div>
