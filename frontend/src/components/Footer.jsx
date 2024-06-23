@@ -5,6 +5,7 @@ import {
     AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { RiTwitterXLine } from 'react-icons/ri';
 
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
                     <ul className="grid gap-x-8 grid-cols-4  footer-icons">
                         <li className="social-icons ">
                             <a
-                                href="https://github.com/sachin__2706"
+                                href="https://github.com/sachin2745"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -42,12 +43,12 @@ const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <AiOutlineTwitter />
+                                <RiTwitterXLine />
                             </a>
                         </li>
                         <li className="social-icons">
                             <a
-                                href="https://www.linkedin.com/in/sachin__2706"
+                                href="https://www.linkedin.com/in/thesachinkumar/"
                                 style={{ color: "white" }}
                                 target="_blank"
                                 rel="noopener noreferrer"
