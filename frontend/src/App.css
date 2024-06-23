@@ -21,6 +21,10 @@
 .f {
   font-family: Bengittan;
 }
+/* //scrool behavior */
+html {
+  scroll-behavior: smooth;
+}
 
 .years:hover {
   transform: scale(1.1);
@@ -49,4 +53,5 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 

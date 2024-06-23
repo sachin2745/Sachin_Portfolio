@@ -19,26 +19,22 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Aboutme />
+      <section id="about" className="sticky top-0">
+        <Aboutme />
+      </section>
       <HireMe />
-      <Experiences />
+      <section id="experiences" className="sticky top-0">
+        <Experiences />
+      </section>
       {/* <Experience /> */}
-      <Project />
+      <section id="project" className="sticky top-0">
+        <Project />
+      </section>
       <Skills />
       <Education />
-      <Contact />
-      {/* <div className='flex flex-col justify-center  '>
-        <h1 className='  mt-5 font-Quicksand text-charcol_black  text-3xl '>Sachin</h1>
-        <h1 className=' a mt-5  text-primary  text-3xl '>Sachin</h1>
-        <h1 className=' b mt-5 font-bold text-secondary  text-3xl '>Sachin</h1>
-        <h1 className=' c mt-5 font-bold text-red-600  text-3xl '>Sachin</h1>
-        <h1 className=' d mt-5 font-bold text-red-600  text-6xl '>Sachin</h1>
-        <h1 className=' mt-5 font-LavishlyYours text-red-600  text-6xl '>Sachin</h1>
-        <h1 className='  mt-5 font-RumRaisin text-red-600  text-6xl '>Sachin</h1>
-        <h1 className='  mt-5 font-Nosifer text-red-600  text-6xl '>Sachin</h1>
-
-      </div> */}
-
+      <section id="contact" className="sticky top-0">
+        <Contact />
+      </section>
       <Footer />
     </>
   )

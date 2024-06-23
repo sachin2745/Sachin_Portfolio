@@ -55,9 +55,9 @@ const Contact = () => {
     return (
 
         <>
-            <div className=" flex  p-20 bg-tertiary sticky top-0 ">
+            <div className=" flex  p-10 bg-tertiary sticky top-0 ">
                 <section className="bg-tertiary ">
-                    <div className="py-8 lg:py-10 px-4 mx-auto max-w-screen-md">
+                    <div className="py-8 lg:py-1 px-4 mx-auto max-w-screen-md">
                         <h2 className="mb-1 text-3xl text-start text-white font-Rammetto_One  tracking-wider">
                             Contact <span className="font-Allura text-6xl  text-primary">Us</span>
                         </h2>
