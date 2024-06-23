@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './hireme.css'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const HireMe = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
+
     return (
         <>
             <section className='sticky top-0 bg-tertiary'>
@@ -21,9 +28,9 @@ const HireMe = () => {
                     {/* Close Image Column */}
                     {/* Text Column */}
 
-                    <div className="max-w-lg bg-[#545454]  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-[50px] xl:ml-12">
+                    <div className="max-w-lg bg-[#545454]  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-[50px] xl:ml-12" data-aos="zoom-in">
                         {/* Text Wrapper */}
-                        <div className="flex flex-col p-12 md:px-16">
+                        <div className="flex flex-col p-12 md:px-16" >
                             <h2 className="text-xl font-medium font-Englebert uppercase text-white lg:text-4xl">
                                 Do you want any work done <span className='text-primary text-7xl d font-bold'>?</span>
                             </h2>

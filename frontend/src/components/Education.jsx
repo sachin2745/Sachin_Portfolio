@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Education = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
+
     return (
         <section className='sticky top-0 '>
             <div  className="mx-auto bg-tertiary   max-w-screen-1xl px-4 py-8 sm:px-6 lg:px-8 mb-36">
@@ -9,7 +16,7 @@ const Education = () => {
                 </h2>
                 <div className="grid grid-cols-1 lg:h-full lg:grid-cols-2 -mt-10">
 
-                    <div className="relative z-10 lg:py-10">
+                    <div className="relative z-10 lg:py-10" data-aos="fade-right">
                         <div className="relative h-64 sm:h-80 mt-20 lg:h-full">
                             <img
                                 alt="Education"
@@ -25,7 +32,8 @@ const Education = () => {
                         <div className="p-8 sm:p-16 lg:p-24 -mb-40   ">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex group   years transition hover:shadow-xl">
+                                className="flex group   years transition hover:shadow-xl " 
+                                data-aos="fade-left">
                                 <div className="rotate-180 p-2 b bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
@@ -72,7 +80,8 @@ const Education = () => {
                         <div className="p-8 sm:p-16 lg:p-24 -mb-40 ">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex years group transition hover:shadow-xl">
+                                className="flex years group transition hover:shadow-xl"
+                                data-aos="fade-left">
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
@@ -120,7 +129,8 @@ const Education = () => {
                         <div className="p-8 sm:p-16 lg:p-24 -mb-40 ">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex  years group transition hover:shadow-xl">
+                                className="flex  years group transition hover:shadow-xl"
+                                data-aos="fade-left">
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"

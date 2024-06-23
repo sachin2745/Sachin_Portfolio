@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import * as Yup from "yup";
 import { useFormik } from 'formik';
 import toast from 'react-hot-toast';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+
 
     const contactFormvalidationSchema = Yup.object().shape({
         name: Yup.string().required('Name is Required').min(3, 'Name is Too Short').max(15, "Name must be at most 10 characters"),
@@ -51,6 +54,10 @@ const Contact = () => {
         validationSchema: contactFormvalidationSchema,
 
     });
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
 
     return (
 
@@ -143,7 +150,7 @@ const Contact = () => {
                 </section>
                 <section className="bg-transparent  ml-32">
                     <div className='py-8 mt-16  lg:py-10 px-4 mx-auto max-w-screen-3xl grid grid-rows-3 grid-flow-col gap-4 place-content-center group'>
-                        <div className="flex  flex-col bg-quaternary  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "
+                        <div className="flex  flex-col bg-quaternary  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " data-aos="fade-down"
                         >
                             <img
                                 className="object-cover p-2 rounded-t-lg h-full md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
@@ -161,7 +168,7 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col bg-quaternary items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"
+                        <div className="flex flex-col bg-quaternary items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"  data-aos="fade-down"
                         >
                             <img
                                 className="object-cover p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
@@ -178,7 +185,7 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col  items-center bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "
+                        <div className="flex flex-col  items-center bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "  data-aos="fade-down"
                         >
                             <img
                                 className="object-cover p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"

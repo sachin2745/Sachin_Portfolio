@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Aboutme = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
+
     return (
         <section className='sticky top-0 bg-tertiary'>
             <div className=" body-font pb-40">
                 <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div className="flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <div className="flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" data-aos="fade-right">
 
                         <h1 className="title-font text-center rotate-180 [writing-mode:_vertical-lr]  sm:text-3xl text-3xl mb-4 font-Rammetto_One text-white">
                             About  <span className='text-primary  '>Me !</span>
@@ -18,7 +25,7 @@ const Aboutme = () => {
                         />
                     </div>
 
-                    <div className="pt-20 lg:flex-grow md:w-1/2  lg:pl-40 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <div className="pt-20 lg:flex-grow md:w-1/2  lg:pl-40 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center" data-aos="fade-left">
                         <h1 className="title-font  sm:text-3xl text-3xl mb-4 font-Rammetto_One text-white">
                             Namaste  <span className='text-primary '>Ji</span>     <span className='text-primary e font-bold text-5xl'>,</span><br />
                             I am Sachin <span className='text-primary  '> Kumar,</span>

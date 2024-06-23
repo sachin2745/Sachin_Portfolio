@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Fragment, useState } from 'react'
 import './navbar.css'
 import { Link } from 'react-router-dom'
@@ -23,6 +23,8 @@ import {
     SquaresPlusIcon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
@@ -43,11 +45,16 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
         <header className="sticky top-0" style={{ background: 'linear-gradient(60deg, #eb1f00, #330000)' }}>
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-                <div className="flex lg:flex-1 cursor-pointer">
+                <div className="flex lg:flex-1 cursor-pointer" data-aos="fade-right">
                     <a href="/" className="-m-1.5 p-1.5">
                         <h1 style={{ fontFamily: "Northwell" }} className="h-8 w-auto  text-6xl neon">Sachin</h1>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
@@ -63,7 +70,7 @@ const Navbar = () => {
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
-                <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+                <PopoverGroup className="hidden lg:flex lg:gap-x-12" data-aos="fade-left">
                     <Popover className="relative">
                         {/* <PopoverButton className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
               Product
@@ -179,25 +186,25 @@ const Navbar = () => {
                                     )}
                                 </Disclosure>
                                 <Link
-                                    href="#"
+                                    href="#about"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     About
                                 </Link>
                                 <a
-                                    href="#"
+                                    href="#experience"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     Experience
                                 </a>
                                 <a
-                                    href="#"
+                                    href="#project"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     Project
                                 </a>
                                 <a
-                                    href="#"
+                                    href="#contact"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     Contact Us

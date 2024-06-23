@@ -24,6 +24,7 @@
 /* //scrool behavior */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .years:hover {

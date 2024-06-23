@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './project.css'
 import { useState } from "react"
 import Modal from "react-modal";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const customStyles = {
     content: {
@@ -41,6 +43,9 @@ const Project = () => {
     function closeModal2() {
         setOpen(false);
     }
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
 
 
     return (
@@ -58,7 +63,7 @@ const Project = () => {
                     <div className="lg:col-span-2 lg:py-8">
                         <ul className="grid grid-cols-2 gap-4">
                             <li>
-                                <div className="group block">
+                                <div className="group block"  data-aos="fade-right">
                                     <img
                                         src="ownyourcap.png"
                                         alt=""
@@ -174,7 +179,7 @@ const Project = () => {
                             </li>
 
                             <li>
-                                <div className="group block ">
+                                <div className="group block " data-aos="fade-right">
                                     <img
                                         src="voicetournavigator.png"
                                         alt=""
@@ -294,9 +299,9 @@ const Project = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="grid place-content-center  aspect-square  rounded bg-white p-6 sm:p-8">
+                    <div className="grid place-content-center  aspect-square  rounded bg-white p-6 sm:p-8"  >
 
-                        <img className='h-full object-cover aspect-square  '
+                        <img className='h-full object-cover aspect-square  ' data-aos="zoom-in"
                             src="project.jpg" alt="project pic" />
 
                     </div>

@@ -1,10 +1,16 @@
-import { Card } from 'flowbite-react'
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const experiences = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
+
     return (
         <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0">
-            <div className="mx-auto max-w-screen-2xl px-4 md:px-8 pt-16 pb-40">
+            <div className="mx-auto max-w-screen-2xl px-4 md:px-8 pt-10 pb-40">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">
                     <h2 className="mb-4 ml-20 font-Rammetto_One text-start text-2xl  text-white md:mb-6 lg:text-3xl">
@@ -15,7 +21,7 @@ const experiences = () => {
                 {/* text - end */}
                 <div className="grid gap-4 sm:grid-cols-2 max-w-screen-xl">
                     {/* product - start */}
-                    <div className="grid grid-cols-2   group  ">
+                    <div className="grid grid-cols-2   group " data-aos="zoom-out">
                         <div className='ml-60 z-10  py-10 bg-black w-20  group-hover:bg-[#28282B] transition ease-in-out  duration-300 place-content-end grid  place-items-end'>
                             <h5 className="text-8xl font-Englebert text-[#545454] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
                                 2024
@@ -39,7 +45,7 @@ const experiences = () => {
                     </div>
                     {/* product - end */}
                     {/* product - start */}
-                    <div className="grid grid-cols-2   group  ">
+                    <div className="grid grid-cols-2 group"  data-aos="zoom-out">
                         <div className='ml-60  z-10  py-10 bg-black w-20  group-hover:bg-[#28282B] transition ease-in-out  duration-300 place-content-end grid  place-items-end'>
                             <h5 className="text-8xl font-Englebert text-[#545454] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
                                 2023
