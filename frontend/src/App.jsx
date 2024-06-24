@@ -13,6 +13,7 @@ import HireMe from './components/HireMe';
 import Aboutme from './components/Aboutme';
 import Hero from './components/Hero';
 import Preloader from './components/Preloader';
+import Mobile from './components/Mobile';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,6 +32,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Mobile />
       <Hero />
       <section id="about" className="sticky top-0">
         <Aboutme />
@@ -40,7 +42,7 @@ function App() {
         <Experiences />
       </section>
       {/* <Experience /> */}
-      <section id="project" className="sticky top-0">
+      <section id="project" className="sticky top-0 ">
         <Project />
       </section>
       <Skills />

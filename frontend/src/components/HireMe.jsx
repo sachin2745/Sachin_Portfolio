@@ -11,7 +11,7 @@ const HireMe = () => {
 
     return (
         <>
-            <section className='sticky top-0 bg-tertiary'>
+            <section className='sticky top-0 bg-tertiary hidden md:block'>
                 {/* Container */}
                 <h2 className='text-white font-Rammetto_One  ml-28 pt-14 text-3xl'>
                     Hire <span className='text-primary text-5xl f font-bold'>Me</span>

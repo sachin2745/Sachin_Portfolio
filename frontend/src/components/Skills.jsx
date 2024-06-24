@@ -11,7 +11,7 @@ const Skills = () => {
 
 
     return (
-        <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0 ">
+        <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0 hidden md:block">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8 mb-20">
                 <h2 className="mb-8 text-3xl text-white font-Rammetto_One tracking-wider  text-start ml-20    md:mb-12 lg:text-3xl">
                     Skills  <span className='b text-primary text-2xl font-bold ' > Expertise</span>

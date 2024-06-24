@@ -9,7 +9,7 @@ const Aboutme = () => {
       }, []);
 
     return (
-        <section className='sticky top-0 bg-tertiary'>
+        <section className='sticky top-0 bg-tertiary hidden md:block'>
             <div className=" body-font pb-40">
                 <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="flex lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0" data-aos="fade-right">

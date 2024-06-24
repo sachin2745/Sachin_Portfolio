@@ -9,7 +9,7 @@ const experiences = () => {
       }, []);
 
     return (
-        <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0">
+        <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0 hidden md:block">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8 pt-10 pb-40">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">

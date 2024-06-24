@@ -14,7 +14,7 @@ const Footer = () => {
 
   
     return (
-        <div style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }} className='sticky top-0 '>
+        <div style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }} className='sticky top-0 hidden md:block'>
             {/* <img className='w-screen h-auto' src="myimg.png" alt="pic" /> */}
             <div className="flex h-10 p-5 justify-between items-center footer" >
 

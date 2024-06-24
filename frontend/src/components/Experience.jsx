@@ -48,7 +48,7 @@ const Experience = () => {
 
     return (
         <>
-            <section className=" sticky top-0">
+            <section className=" sticky top-0 hidden md:block">
                 <div
                     id="experience"
                     className="bg-tertiary p-8 rounded-lg shadow-lg w-full mx-auto pt-32 pb-40"

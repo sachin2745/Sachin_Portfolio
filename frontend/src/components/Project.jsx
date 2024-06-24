@@ -49,7 +49,7 @@ const Project = () => {
 
 
     return (
-        <section className='bg-tertiary sticky top-0 pb-40'>
+        <section className='bg-tertiary sticky top-0 pb-40 hidden md:block'>
             <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  pt-20">
                 <h2 className="text-3xl text-white font-Rammetto_One  -ml-10  text-start sm:text-3xl mb-3">
                     Projects - My Recent <span className='text-primary b font-bold text-2xl'>Works</span>

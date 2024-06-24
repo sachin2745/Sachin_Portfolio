@@ -51,6 +51,7 @@ const Navbar = () => {
       }, []);
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
     return (
         <header className="sticky top-0 " style={{ background: 'linear-gradient(60deg, #eb1f00, #330000)' }}>
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -150,7 +151,7 @@ const Navbar = () => {
                         </a>
                         <button
                             type="button"
-                            className="-m-2.5 rounded-md p-2.5 text-white"
+                            className="-m-2.5 rounded-md p-2.5 text-primary"
                             onClick={() => setMobileMenuOpen(false)}
                         >
                             <span className="sr-only">Close menu</span>
@@ -185,12 +186,12 @@ const Navbar = () => {
                                         </>
                                     )}
                                 </Disclosure>
-                                <Link
+                                <a
                                     href="#about"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     About
-                                </Link>
+                                </a>
                                 <a
                                     href="#experience"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
