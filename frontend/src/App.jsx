@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Navbar from './components/Navbar';
@@ -12,9 +12,22 @@ import Experiences from './components/Experiences';
 import HireMe from './components/HireMe';
 import Aboutme from './components/Aboutme';
 import Hero from './components/Hero';
+import Preloader from './components/Preloader';
 
 function App() {
+  const [loading, setLoading] = useState(true);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Adjust the timeout duration as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Preloader />;
+  }
   return (
     <>
       <Navbar />

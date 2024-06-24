@@ -1,0 +1,28 @@
+
+.preloaderload {
+    background-color: #1a202c; /* Tailwind's bg-gray-800 */
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  .animate-letter {
+    display: inline-block;
+    animation: bounce 1.5s infinite;
+    animation-delay: calc(0.1s * var(--i));
+    /* Tailwind's text-white */
+  }
+  
+  .animate-letter:nth-child(1) { --i: 1; }
+  .animate-letter:nth-child(2) { --i: 2; }
+  .animate-letter:nth-child(3) { --i: 3; }
+  .animate-letter:nth-child(4) { --i: 4; }
+  .animate-letter:nth-child(5) { --i: 5; }
+  .animate-letter:nth-child(6) { --i: 6; }
+  .animate-letter:nth-child(7) { --i: 7; }
