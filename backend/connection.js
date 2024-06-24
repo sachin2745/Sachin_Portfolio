@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
+require('dotenv').config();
 
-const url = "mongodb+srv://sachin:pikachu@sachin.apdoy2g.mongodb.net/mydatabase?retryWrites=true&w=majority&appName=Sachin";
-
+const url =  process.env.MONGODB_URL;
 // asynchronous functions - return Promise
 mongoose.connect(url)
     .then((result) => {
