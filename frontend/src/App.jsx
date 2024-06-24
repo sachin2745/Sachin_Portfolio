@@ -47,7 +47,7 @@ function App() {
       </section>
       <Skills />
       <Education />
-      <section id="contact" className="sticky top-0">
+      <section id="contact" className="sticky top-0 hidden md:block">
         <Contact />
       </section>
       <Footer />
