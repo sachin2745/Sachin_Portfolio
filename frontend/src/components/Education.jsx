@@ -6,11 +6,11 @@ const Education = () => {
 
     useEffect(() => {
         AOS.init({ duration: 2000 });
-      }, []);
+    }, []);
 
     return (
         <section className='sticky top-0 '>
-            <div  className="mx-auto bg-tertiary   max-w-screen-1xl px-4 py-8 sm:px-6 lg:px-8 mb-36">
+            <div className="mx-auto bg-tertiary    max-w-screen-3xl px-4 py-10 sm:px-6 lg:px-0 mb-20">
                 <h2 className="text-3xl text-white font-Rammetto_One  ml-20   text-start sm:text-3xl">
                     Education
                 </h2>
@@ -29,15 +29,15 @@ const Education = () => {
                     <div className='relative -mt-10  grid grid-rows-3 grid-flow-col gap-4 '>
 
 
-                        <div className="p-8 sm:p-16 lg:p-24 -mb-40   ">
+                        <div className="p-8 sm:p-16 lg:p-24 -mb-40   " data-aos="fade-left">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
-                                className="flex group   years transition hover:shadow-xl " 
-                                data-aos="fade-left">
+                                className="flex group   years transition hover:shadow-xl "
+                            >
                                 <div className="rotate-180 p-2 b bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
-                                        className="flex group-hover:text-primary   items-center justify-between gap-4 text-xs font-bold uppercase text-white"
+                                        className="flex group-hover:text-white   items-center justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2020</span>
                                         <span className="w-px flex-1 bg-primary/50 group-hover:bg-white"></span>
@@ -77,15 +77,15 @@ const Education = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="p-8 sm:p-16 lg:p-24 -mb-40 ">
+                        <div className="p-8 sm:p-16 lg:p-24 -mb-40 " data-aos="fade-left">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
                                 className="flex years group transition hover:shadow-xl"
-                                data-aos="fade-left">
+                            >
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
-                                        className="flex items-center group-hover:text-primary  justify-between gap-4 text-xs font-bold uppercase text-white"
+                                        className="flex items-center group-hover:text-white  justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2019</span>
                                         <span className="w-px flex-1 bg-primary/50 group-hover:bg-white "></span>
@@ -126,15 +126,15 @@ const Education = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="p-8 sm:p-16 lg:p-24 -mb-40 ">
+                        <div className="p-8 sm:p-16 lg:p-24 -mb-40 " data-aos="fade-left">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
                                 className="flex  years group transition hover:shadow-xl"
-                                data-aos="fade-left">
+                            >
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
                                         datetime="2022-10-10"
-                                        className="flex items-center group-hover:text-primary  justify-between gap-4 text-xs font-bold uppercase text-white"
+                                        className="flex items-center group-hover:text-white  justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2017</span>
                                         <span className="w-px flex-1 bg-primary/50 group-hover:bg-white"></span>

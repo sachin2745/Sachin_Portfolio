@@ -153,11 +153,11 @@ const Contact = () => {
                         <div className="flex  flex-col bg-quaternary  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " data-aos="fade-down"
                         >
                             <img
-                                className="object-cover p-2 rounded-t-lg h-full md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
+                                className="object-cover ml-5 p-2 rounded-t-lg h-full md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
                                 src="address.png"
                                 alt=""
                             />
-                            <div className="flex flex-col justify-between p-4 leading-normal">
+                            <div className="flex flex-col justify-between p-4 ml-3 leading-normal">
                                 <h5 className="mb-2 text-2xl font-bold  text-white font-Englebert  tracking-wider">
                                     Address
                                 </h5>
@@ -171,11 +171,11 @@ const Contact = () => {
                         <div className="flex flex-col bg-quaternary items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"  data-aos="fade-down"
                         >
                             <img
-                                className="object-cover p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
+                                className="object-cover ml-5 p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
                                 src="contact.png"
                                 alt=""
                             />
-                            <div className="flex flex-col justify-between p-4 leading-normal">
+                            <div className="flex flex-col justify-between ml-3 p-4 leading-normal">
                                 <h5 className="mb-2 text-2xl font-bold  text-white font-Englebert  tracking-wider">
                                     Contact
                                 </h5>
@@ -188,11 +188,11 @@ const Contact = () => {
                         <div className="flex flex-col  items-center bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "  data-aos="fade-down"
                         >
                             <img
-                                className="object-cover p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
+                                className="object-cover ml-5 p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
                                 src="email.png"
                                 alt=""
                             />
-                            <div className="flex flex-col justify-between p-4 leading-normal">
+                            <div className="flex flex-col justify-between ml-3 p-4 leading-normal">
                                 <h5 className="mb-2 text-2xl font-bold  text-white font-Englebert  tracking-wider">
                                     Email
                                 </h5>

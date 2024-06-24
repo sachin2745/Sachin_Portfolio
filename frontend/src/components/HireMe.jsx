@@ -38,7 +38,7 @@ const HireMe = () => {
                                 I&apos;m confident I can be a valuable asset to your team.  If you&apos;re looking for someone with MERN Full Stack Development and Web Development skills , then look no further! <br />
                                 Click the button below to download my resume and learn more about my qualifications and experience. <br />  I&apos;m always happy to discuss potential projects, so feel free to reach out through the contact form as well.
                                 <br /><br />
-                                <span className='text-primary font-bold b text-xs '> Let&apos;s get started!</span>
+                                <span className='text-primary font-extrabold b text-md '> Let&apos;s get started!</span>
                             </p>
                             {/* Button Container */}
                             <div className="mt-8 ">

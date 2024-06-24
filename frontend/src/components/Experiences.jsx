@@ -35,7 +35,7 @@ const experiences = () => {
                             <h5 className="text-2xl font-RumRaisin tracking-wide font-normal  text-white ">
                                 MERN Stack Developement Intern
                             </h5>
-                            <h5 className="text-md font-Josefin_Sans font-normal tracking-tight text-white mb-2">
+                            <h5 className="text-md font-Josefin_Sans font-normal tracking-tight text-white group-hover:text-primary mb-2">
                                 Digipodium
                             </h5>
                             <p className="font-light font-Englebert tracking-wider text-white text-md text-start">
@@ -59,7 +59,7 @@ const experiences = () => {
                             <h5 className="text-2xl font-normal font-RumRaisin tracking-wide text-white ">
                                 SEO Intern
                             </h5>
-                            <h5 className="text-md font-Josefin_Sans font-normal tracking-tight text-white mb-2">
+                            <h5 className="text-md font-Josefin_Sans font-normal tracking-tight text-white group-hover:text-primary mb-2">
                                 Glatt Pharmaceuticals Private <br /> Limited
                             </h5>
                             <p className="font-light font-Englebert tracking-wider  text-white text-md text-start">
