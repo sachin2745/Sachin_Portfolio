@@ -149,8 +149,8 @@ const Contact = () => {
                     </div>
                 </section>
                 <section className="bg-transparent  ml-32">
-                    <div className='py-8 mt-16  lg:py-10 px-4 mx-auto max-w-screen-3xl grid grid-rows-3 grid-flow-col gap-4 place-content-center group'>
-                        <div className="flex  flex-col bg-quaternary  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " data-aos="fade-down"
+                    <div className='py-8 mt-16  lg:py-10 px-4 mx-auto max-w-screen-3xl grid grid-rows-3 grid-flow-col gap-4 place-content-center group' data-aos="fade-down">
+                        <div className="flex  flex-col bg-quaternary  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " 
                         >
                             <img
                                 className="object-cover ml-5 p-2 rounded-t-lg h-full md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
@@ -168,7 +168,7 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col bg-quaternary items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"  data-aos="fade-down"
+                        <div className="flex flex-col bg-quaternary items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"  
                         >
                             <img
                                 className="object-cover ml-5 p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
@@ -185,7 +185,7 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col  items-center bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "  data-aos="fade-down"
+                        <div className="flex flex-col  items-center bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " 
                         >
                             <img
                                 className="object-cover ml-5 p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
