@@ -24,8 +24,8 @@ const Hero = () => {
 
     return (
         <section className=" sticky top-0   hidden md:block" >
-            <div className="bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat body-font  pt-40  pb-56 z-55">
-                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div className=" body-font   ">
+                <div className="container bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-60  pb-64">
                     <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center" data-aos="fade-right">
 
                         <p className="mb-2 leading-relaxed text-white uppercase font-bold font-Preahvihear">
@@ -93,7 +93,7 @@ const Hero = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <FaSnapchatSquare className='w-7 h-7 icons'  />
+                                        <FaSnapchatSquare className='w-7 h-7 icons' />
                                     </a>
                                 </li>
                                 <li className="social-icons ">
