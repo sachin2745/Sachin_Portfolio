@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import './hero.css';
-import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { AiFillGithub, AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { FaFacebookSquare, FaLinkedinIn, FaSnapchatSquare } from 'react-icons/fa';
 import { RiTwitterXLine } from "react-icons/ri";
@@ -25,7 +25,7 @@ const Hero = () => {
     return (
         <section className=" sticky top-0   hidden md:block" >
             <div className=" body-font   ">
-                <img src="bggg.png" alt="" className="absolute object-cover w-full h-full" />
+                <img src="bghero.png" alt="" className="absolute object-cover w-full h-full" />
                 <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-60  pb-64">
                     <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center" data-aos="fade-right">
 
@@ -112,13 +112,7 @@ const Hero = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="lg:max-w-xl  lg:w-full md:w-1/2 w-5/6 pt-20 ">
-                        {/* <img
-                            className="object-cover object-center  ml-36 "
-                            alt="hero"
-                            src="Sachinimg.png"
-                        /> */}
-                    </div>
+
                 </div>
             </div>
         </section>
