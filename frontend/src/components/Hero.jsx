@@ -24,11 +24,11 @@ const Hero = () => {
 
     return (
         <section className=" sticky top-0   hidden md:block" >
-            <div className="bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat text-white body-font  pt-40  pb-56">
+            <div className="bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat body-font  pt-40  pb-56 z-55">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center" data-aos="fade-right">
 
-                        <p className="mb-2 leading-relaxed uppercase font-bold font-Preahvihear">
+                        <p className="mb-2 leading-relaxed text-white uppercase font-bold font-Preahvihear">
                             Hello There, <br /> Welcome to   <span className=' text-primary '>My site</span>
                         </p>
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
