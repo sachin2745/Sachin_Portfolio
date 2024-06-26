@@ -35,7 +35,7 @@ const Skills = () => {
                                         >
                                             MERN Stack Development
                                         </h2>
-                                        <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
+                                        <p className="text-black font-Preahvihear lg:font-normal  text-sm transition-all duration-300 group-hover:text-white">
                                             MongoDB,<br /> Express.js,<br />
                                             React.js,<br /> Node.js.
                                         </p>
@@ -65,7 +65,7 @@ const Skills = () => {
                                         >
                                             Frontend  Libraries
                                         </h2>
-                                        <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
+                                        <p className="text-black font-Preahvihear lg:font-normal text-sm transition-all duration-300 group-hover:text-white">
                                             Modern web tools for stylish interfaces: <br />  Bootstrap 5, <br />Mantine UI,<br /> Tailwind CSS.
                                         </p>
 
@@ -94,7 +94,7 @@ const Skills = () => {
                                         >
                                             Programming Languages
                                         </h2>
-                                        <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
+                                        <p className="text-black font-Preahvihear lg:font-normal text-sm transition-all duration-300 group-hover:text-white">
                                             Proficient in C and Java, with strong problem solving and coding skills.
                                         </p>
                                     </div>
@@ -126,7 +126,7 @@ const Skills = () => {
                                         >
                                             Web Design
                                         </h2>
-                                        <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
+                                        <p className="text-black font-Preahvihear lg:font-normal text-sm transition-all duration-300 group-hover:text-white">
                                             HTML5, CSS3, and  JavaScript: <br />
                                             Building websites with modern front-end technologies.
                                         </p>
@@ -162,7 +162,7 @@ const Skills = () => {
                                         >
                                             GitHub
                                         </h2>
-                                        <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
+                                        <p className="text-black font-Preahvihear lg:font-normal text-sm transition-all duration-300 group-hover:text-white">
                                             Proficient in Git and GitHub for source code
                                             management, collaboration, and version tracking.
                                         </p>
@@ -199,7 +199,7 @@ const Skills = () => {
                                         >
                                             Graphic Design
                                         </h2>
-                                        <p className="text-black font-Preahvihear font-normal text-sm transition-all duration-300 group-hover:text-white">
+                                        <p className="text-black font-Preahvihear lg:font-normal text-sm transition-all duration-300 group-hover:text-white">
                                             Canva:
                                             <br /> Online design tool for creating graphics, presentations, and more.
                                         </p>

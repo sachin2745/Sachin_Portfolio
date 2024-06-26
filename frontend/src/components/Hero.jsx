@@ -26,16 +26,16 @@ const Hero = () => {
         <section className=" lg:sticky top-0   hidden md:block" >
             <div className=" body-font   bg-tertiary">
                 <img src="bghero.png" alt="" className="absolute hidden lg:block object-cover w-full h-full" />
-                <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-52 pb-52 lg:pt-60  lg:pb-64">
-                    <div className="lg:ml-20 lg:-mt-20 lg:flex-1 w-full lg:pr-24  flex flex-col lg:items-start lg:text-left  items-center text-center" data-aos="fade-right">
+                <div className="container  mx-auto flex  px-5 py-24 md:flex-row flex-col items-center pt-52 pb-40 lg:pt-60  lg:pb-64">
+                    <div className="lg:ml-20 lg:-mt-20   lg:flex-1 w-full lg:pr-24  flex flex-col lg:items-start lg:text-left  items-center text-center" data-aos="fade-right">
 
-                        <p className="mb-2 leading-relaxed text-white uppercase font-bold font-Preahvihear">
+                        <p className="mb-2 text-xl lg:text-md leading-relaxed text-white uppercase font-bold font-Preahvihear">
                             Hello There, <br /> Welcome to   <span className=' text-primary '>My site</span>
                         </p>
-                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
+                        <h1 className="title-font lg:text-3xl text-4xl mb-4 font-medium text-white font-Rammetto_One">
                             I&apos;m <br />   Sachin <span className=' text-primary '>Kumar</span>
                         </h1>
-                        <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
+                        <h2 className="title-font lg:text-4xl text-4xl mb-4 font-medium text-white font-Rammetto_One">
                             A <br /> Full Stack <span className=' text-primary '>{typeEffect} </span>
                         </h2>
                         <div className="loader"></div>
@@ -64,7 +64,7 @@ const Hero = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <AiFillGithub className='w-7 h-7 icons' />
+                                        <AiFillGithub className='w-12  h-12 lg:w-7 lg:h-7  icons' />
                                     </a>
                                 </li>
                                 <li className="social-icons">
@@ -74,7 +74,7 @@ const Hero = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <FaLinkedinIn className='w-7 h-7 icons' />
+                                        <FaLinkedinIn className='w-12  h-12 lg:w-7 lg:h-7 icons' />
                                     </a>
                                 </li>
                                 <li className="social-icons">
@@ -84,7 +84,7 @@ const Hero = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <AiFillInstagram className='w-7 h-7 icons' />
+                                        <AiFillInstagram className='w-12  h-12 lg:w-7 lg:h-7 icons' />
                                     </a>
                                 </li>
                                 <li className="social-icons">
@@ -94,7 +94,7 @@ const Hero = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <FaSnapchatSquare className='w-7 h-7 icons' />
+                                        <FaSnapchatSquare className='w-12  h-12 lg:w-7 lg:h-7 icons' />
                                     </a>
                                 </li>
                                 <li className="social-icons ">
@@ -104,7 +104,7 @@ const Hero = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <RiTwitterXLine className='w-7 h-7  icons' />
+                                        <RiTwitterXLine className='w-12  h-12 lg:w-7 lg:h-7  icons' />
                                     </a>
                                 </li>
 

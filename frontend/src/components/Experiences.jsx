@@ -10,7 +10,7 @@ const experiences = () => {
 
     return (
         <div className="bg-tertiary py-6 sm:py-8 lg:py-10 lg:sticky top-0 hidden md:block ">
-            <div className="mx-auto max-w-screen-2xl px-4 md:px-8 pt-80 lg:pt-12 pb-10 lg:pb-40">
+            <div className="mx-auto max-w-screen-2xl px-4 md:px-8 pt-80  lg:pt-12 pb-10 lg:pb-40">
                 {/* text - start */}
                 <div className="mb-10 md:mb-16">
                     <h2 className="mb-4 ml-12 lg:ml-20 font-Rammetto_One text-start text-4xl  text-white  lg:text-3xl">
@@ -21,7 +21,7 @@ const experiences = () => {
                 {/* text - end */}
                 <div className="grid gap-4 grid-cols-1 lg:grid-cols-2 max-w-screen-xl cursor-pointer">
                     {/* product - start */}
-                    <div className="grid grid-cols-2   group " data-aos="zoom-out">
+                    <div className="grid grid-cols-2 group py-10 " data-aos="zoom-out">
                         <div className='ml-40 lg:ml-60  z-10  py-10 bg-black w-20  group-hover:bg-[#28282B] transition ease-in-out  duration-300 place-content-end grid  place-items-end'>
                             <h5 className="text-8xl font-Englebert text-[#545454] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
                                 2024
@@ -45,7 +45,7 @@ const experiences = () => {
                     </div>
                     {/* product - end */}
                     {/* product - start */}
-                    <div className="grid grid-cols-2 group"  data-aos="zoom-out">
+                    <div className="grid grid-cols-2 group py-10"  data-aos="zoom-out">
                         <div className='ml-40 lg:ml-60  z-10  py-10 bg-black w-20  group-hover:bg-[#28282B] transition ease-in-out  duration-300 place-content-end grid  place-items-end'>
                             <h5 className="text-8xl font-Englebert text-[#545454] group-hover:text-primary transition ease-in-out  duration-300 z-10 font-bold tracking-tight  ">
                                 2023
