@@ -57,15 +57,15 @@ const Contact = () => {
 
     useEffect(() => {
         AOS.init({ duration: 2000 });
-      }, []);
+    }, []);
 
     return (
 
         <>
-            <div className=" flex  p-10 bg-tertiary sticky top-0 ">
+            <div className="  xl:flex p-10 bg-tertiary ">
                 <section className="bg-tertiary ">
-                    <div className="py-8 lg:py-1 px-4 mx-auto max-w-screen-md">
-                        <h2 className="mb-1 text-3xl text-start text-white font-Rammetto_One  tracking-wider">
+                    <div className="py-8 lg:py-1 px-4 mx-auto  xl:max-w-screen-md ">
+                        <h2 className="mb-1 text-4xl lg:text-3xl text-start text-white font-Rammetto_One  tracking-wider">
                             Contact <span className="font-Allura text-6xl  text-primary">Us</span>
                         </h2>
                         <p className="mb-1 lg:mb-1 font-normal text-start text-white sm:text-lg font-Jost   tracking-wide">
@@ -148,9 +148,9 @@ const Contact = () => {
                         </form>
                     </div>
                 </section>
-                <section className="bg-transparent  ml-32">
-                    <div className='py-8 mt-16  lg:py-10 px-4 mx-auto max-w-screen-3xl grid grid-rows-3 grid-flow-col gap-4 place-content-center group' data-aos="fade-down">
-                        <div className="flex  flex-col bg-quaternary  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " 
+                <section className="bg-transparent  xl:ml-32">
+                    <div className='py-8 mt-12   lg:py-10  px-4 mx-auto  grid grid-rows-3 grid-flow-col gap-4 group' data-aos="fade-down">
+                        <div className="flex  flex-col bg-quaternary text-balance  items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-full duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "
                         >
                             <img
                                 className="object-cover ml-5 p-2 rounded-t-lg h-full md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
@@ -168,7 +168,7 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col bg-quaternary items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"  
+                        <div className="flex flex-col bg-quaternary text-balance items-center  border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-full  duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer"
                         >
                             <img
                                 className="object-cover ml-5 p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
@@ -185,18 +185,18 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex flex-col  items-center bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-xl duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer " 
+                        <div className="flex flex-col  items-center text-balance bg-quaternary border-b-4 border-primary  rounded-lg shadow md:flex-row md:max-w-full duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100  cursor-pointer "
                         >
                             <img
                                 className="object-cover ml-5 p-2 w-full rounded-t-lg h-96 md:h-20 md:w-20 md:rounded-none md:rounded-s-lg"
                                 src="email.png"
                                 alt=""
                             />
-                            <div className="flex flex-col justify-between ml-3 p-4 leading-normal">
+                            <div className="flex flex-col justify-between ml-3 p-4  leading-normal">
                                 <h5 className="mb-2 text-2xl font-bold  text-white font-Englebert  tracking-wider">
                                     Email
                                 </h5>
-                                <p className="mb-3 font-normal text-white font-Jost  tracking-wider">
+                                <p className="mb-3 font-normal  text-white font-Jost  tracking-wider">
                                     Feel free to drop me an email for any inquiries.<br />
                                     sachin.official648@gmail.com
                                 </p>

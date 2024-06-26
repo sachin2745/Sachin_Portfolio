@@ -11,14 +11,14 @@ const HireMe = () => {
 
     return (
         <>
-            <section className='sticky top-0 bg-tertiary hidden md:block'>
+            <section className='lg:sticky top-0 bg-tertiary hidden md:block pb-20'>
                 {/* Container */}
-                <h2 className='text-white font-Rammetto_One  ml-28 pt-14 text-3xl'>
+                <h2 className='text-white font-Rammetto_One ml-20  lg:ml-28 lg:pt-14 text-4xl lg:text-3xl'>
                     Hire <span className='text-primary text-5xl f font-bold'>Me</span>
                 </h2>
-                <div className="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl  pb-40 xl:max-w-6xl">
+                <div className="relative  flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-2xl  pb-40 xl:max-w-6xl">
                     {/* Image Column */}
-                    <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+                    <div className="w-full h-64 hidden lg:block lg:w-1/2 lg:h-auto">
                         <img
                             className="h-full w-full object-cover"
                             src="hireme.png"
@@ -28,7 +28,7 @@ const HireMe = () => {
                     {/* Close Image Column */}
                     {/* Text Column */}
 
-                    <div className="max-w-lg bg-[#545454]  md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-[50px] xl:ml-12" data-aos="zoom-in">
+                    <div className="max-w-lg bg-[#545454]   md:max-w-screen-md md:z-10 md:shadow-lg md:absolute md:top-0 mt-10 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-[50px] xl:ml-12" data-aos="zoom-in">
                         {/* Text Wrapper */}
                         <div className="flex flex-col p-12 md:px-16" >
                             <h2 className="text-xl font-medium font-Englebert uppercase text-white lg:text-4xl">

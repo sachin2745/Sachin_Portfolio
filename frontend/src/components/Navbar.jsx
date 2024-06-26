@@ -53,11 +53,11 @@ const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className="sticky top-0 " style={{ background: 'linear-gradient(60deg, #eb1f00, #330000)' }}>
-            <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <header className="lg:sticky top-0 hidden md:block" style={{ background: 'linear-gradient(60deg, #eb1f00, #330000)' }}>
+            <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 px-16 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1 cursor-pointer" data-aos="fade-right">
                     <a href="/" className="-m-1.5 p-1.5">
-                        <h1 style={{ fontFamily: "Northwell" }} className="h-8 w-auto  text-6xl neon">Sachin</h1>
+                        <h1 style={{ fontFamily: "Northwell" }} className="h-8 w-auto pb-10 lg:pb-0  text-6xl neon">Sachin</h1>
                         {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
                     </a>
                 </div>
@@ -139,7 +139,7 @@ const Navbar = () => {
             </nav>
             <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />
-                <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-charcol_black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full h-96 overflow-y-auto bg-tertiary px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <a href="#" className="-m-1.5 p-1.5">
                             {/* <h1 className="text-primary">Sachin</h1> */}

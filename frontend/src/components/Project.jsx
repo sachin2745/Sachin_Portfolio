@@ -49,21 +49,21 @@ const Project = () => {
 
 
     return (
-        <section className='bg-tertiary sticky top-0 pb-40 hidden md:block'>
-            <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  pt-20">
-                <h2 className="text-3xl text-white font-Rammetto_One  -ml-10  text-start sm:text-3xl mb-3">
+        <section className='bg-tertiary sticky top-0 pb-20 lg:pb-40 hidden md:block'>
+            <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8 pt-1 lg:pt-20">
+                <h2 className="text-4xl text-white font-Rammetto_One  ml-14 lg:-ml-10  text-start lg:text-3xl mb-3">
                     Projects - My Recent <span className='text-primary b font-bold text-2xl'>Works</span>
                 </h2>
             </div>
-            <div className="mx-auto max-w-screen-xl  px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
+            <div className="mx-auto max-w-screen-md lg:max-w-screen-xl  px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
 
                 <div className="grid grid-cols-1 gap-4  lg:grid-cols-3 lg:items-stretch">
 
 
                     <div className="lg:col-span-2 lg:py-8">
-                        <ul className="grid grid-cols-2 gap-4">
+                        <ul className="grid lg:grid-cols-2   gap-4">
                             <li>
-                                <div className="group block"  data-aos="fade-right">
+                                <div className="group block  mb-10 lg:mb-0 "  data-aos="fade-right">
                                     <img
                                         src="ownyourcap.png"
                                         alt=""
@@ -179,7 +179,7 @@ const Project = () => {
                             </li>
 
                             <li>
-                                <div className="group block " data-aos="fade-right">
+                                <div className="group block  mb-5 lg:mb-0" data-aos="fade-right">
                                     <img
                                         src="voicetournavigator.png"
                                         alt=""
@@ -299,9 +299,9 @@ const Project = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="grid place-content-center  aspect-square  rounded bg-white p-6 sm:p-8"  >
+                    <div className="grid place-content-center h-3/5 hidden lg:block md mx-auto lg:h-full  aspect-square   rounded bg-white p-6 sm:p-8"  >
 
-                        <img className='h-full object-cover aspect-square  ' data-aos="zoom-in"
+                        <img className='h-full object-cover aspect-square' data-aos="zoom-in"
                             src="project.jpg" alt="project pic" />
 
                     </div>

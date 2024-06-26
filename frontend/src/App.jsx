@@ -34,20 +34,20 @@ function App() {
       <Navbar />
       <Mobile />
       <Hero />
-      <section id="about" className="sticky top-0">
+      <section id="about" className="lg:sticky top-0">
         <Aboutme />
       </section>
       <HireMe />
-      <section id="experiences" className="sticky top-0">
+      <section id="experiences" className="lg:sticky top-0">
         <Experiences />
       </section>
       {/* <Experience /> */}
-      <section id="project" className="sticky top-0 ">
+      <section id="project" className="lg:sticky top-0 ">
         <Project />
       </section>
       <Skills />
       <Education />
-      <section id="contact" className="sticky top-0 hidden md:block">
+      <section id="contact" className="lg:sticky top-0 hidden md:block">
         <Contact />
       </section>
       <Footer />

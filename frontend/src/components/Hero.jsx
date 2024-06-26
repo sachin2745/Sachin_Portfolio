@@ -23,11 +23,11 @@ const Hero = () => {
     })
 
     return (
-        <section className=" sticky top-0   hidden md:block" >
-            <div className=" body-font   ">
-                <img src="bghero.png" alt="" className="absolute object-cover w-full h-full" />
-                <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-60  pb-64">
-                    <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center" data-aos="fade-right">
+        <section className=" lg:sticky top-0   hidden md:block" >
+            <div className=" body-font   bg-tertiary">
+                <img src="bghero.png" alt="" className="absolute hidden lg:block object-cover w-full h-full" />
+                <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-52 pb-52 lg:pt-60  lg:pb-64">
+                    <div className="lg:ml-20 lg:-mt-20 lg:flex-1 w-full lg:pr-24  flex flex-col lg:items-start lg:text-left  items-center text-center" data-aos="fade-right">
 
                         <p className="mb-2 leading-relaxed text-white uppercase font-bold font-Preahvihear">
                             Hello There, <br /> Welcome to   <span className=' text-primary '>My site</span>

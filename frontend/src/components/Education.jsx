@@ -9,14 +9,14 @@ const Education = () => {
     }, []);
 
     return (
-        <section className='sticky top-0 hidden md:block'>
-            <div className="mx-auto bg-tertiary    max-w-screen-3xl px-4 py-10 sm:px-6 lg:px-0 pb-40">
-                <h2 className="text-3xl text-white font-Rammetto_One  ml-20   text-start sm:text-3xl">
+        <section className='lg:sticky top-0 hidden md:block'>
+            <div className="mx-auto bg-tertiary lg:px-0 pb-40">
+                <h2 className="text-4xl text-white font-Rammetto_One  ml-20   text-start lg:text-3xl">
                     Education
                 </h2>
                 <div className="grid grid-cols-1 lg:h-full lg:grid-cols-2 -mt-10">
 
-                    <div className="relative z-10 lg:py-10" data-aos="fade-right">
+                    <div className="relative z-10 lg:py-10 hidden lg:block" data-aos="fade-right">
                         <div className="relative h-64 sm:h-80 mt-20 lg:h-full">
                             <img
                                 alt="Education"
@@ -26,17 +26,16 @@ const Education = () => {
                         </div>
                     </div>
 
-                    <div className='relative -mt-10  grid grid-rows-3 grid-flow-col gap-4 '>
+                    <div className=' lg:-mt-10  grid grid-rows-3 grid-flow-col  gap-10 lg:gap-3 '>
 
 
-                        <div className="p-8 sm:p-16 lg:p-24 -mb-40   " data-aos="fade-left">
-                            <article
-                                style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
+                        <div className="p-8 sm:p-16 lg:p-24 -mb-36  lg:-mb-40" data-aos="fade-left">
+                            <article style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
                                 className="flex group   years transition hover:shadow-xl "
                             >
                                 <div className="rotate-180 p-2 b bg-black  [writing-mode:_vertical-lr]">
                                     <time
-                                        datetime="2022-10-10"
+                                        dateTime="2022-10-10"
                                         className="flex group-hover:text-white   items-center justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2020</span>
@@ -56,7 +55,7 @@ const Education = () => {
                                 <div className="flex flex-1 flex-col justify-between">
                                     <div className="  p-4  sm:p-6">
                                         <div >
-                                            <h3 className="font-medium font-Josefin_Sans  uppercase text-white">
+                                            <h3 className="font-medium font-Josefin_Sans max-w-screen-sm  uppercase text-white">
                                                 Bachelor of Computer Applications (BCA)
                                             </h3>
                                         </div>
@@ -77,14 +76,14 @@ const Education = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="p-8 sm:p-16 lg:p-24 -mb-40 " data-aos="fade-left">
+                        <div className="p-8 sm:p-16 lg:p-24 -mb-32 lg:-mb-40 " data-aos="fade-left">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
                                 className="flex years group transition hover:shadow-xl"
                             >
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
-                                        datetime="2022-10-10"
+                                        dateTime="2022-10-10"
                                         className="flex items-center group-hover:text-white  justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2019</span>
@@ -126,14 +125,14 @@ const Education = () => {
                                 </div>
                             </article>
                         </div>
-                        <div className="p-8 sm:p-16 lg:p-24 -mb-40 " data-aos="fade-left">
+                        <div className="p-8 sm:p-16 lg:p-24 -mb-32  lg:-mb-40" data-aos="fade-left">
                             <article
                                 style={{ background: 'linear-gradient(45deg, #eb1f00, #330000)' }}
                                 className="flex  years group transition hover:shadow-xl"
                             >
                                 <div className="rotate-180 b p-2 bg-black  [writing-mode:_vertical-lr]">
                                     <time
-                                        datetime="2022-10-10"
+                                        dateTime="2022-10-10"
                                         className="flex items-center group-hover:text-white  justify-between gap-4 text-xs font-bold uppercase text-white"
                                     >
                                         <span>2017</span>

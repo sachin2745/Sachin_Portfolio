@@ -11,9 +11,9 @@ const Skills = () => {
 
 
     return (
-        <div className="bg-tertiary py-6 sm:py-8 lg:py-12 sticky top-0 hidden md:block">
+        <div className="bg-tertiary py-6 sm:py-8 lg:py-12 lg:sticky lg:top-0 hidden md:block">
             <div className="mx-auto max-w-screen-2xl px-4 md:px-8 mb-20">
-                <h2 className="mb-8 text-3xl text-white font-Rammetto_One tracking-wider  text-start ml-20    md:mb-12 lg:text-3xl">
+                <h2 className="mb-8 text-4xl text-white font-Rammetto_One tracking-wider  text-start ml-12 lg:ml-20    md:mb-12 lg:text-3xl">
                     Skills  <span className='b text-primary text-2xl font-bold ' > Expertise</span>
                 </h2>
                 <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-6">
@@ -49,8 +49,8 @@ const Skills = () => {
                     {/* product - end */}
                     {/* product - start */}
                     <>
-                        <div className=" mt-40" data-aos="fade-down">
-                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                        <div className=" lg:mt-40" data-aos="fade-down">
+                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-11 lg:pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                                 <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-sky-500 transition-all duration-300 group-hover:scale-[10]" />
                                 <div className="relative z-10 mx-auto max-w-md">
                                     <span className="grid h-20 w-20 place-items-center rounded-full bg-white transition-all duration-300 group-hover:bg-white">
@@ -79,7 +79,7 @@ const Skills = () => {
                     {/* product - start */}
                     <>
                         <div className=" " data-aos="fade-up">
-                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-20 lg:pb-8  shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                                 <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#00599D] transition-all duration-300 group-hover:scale-[10]" />
                                 <div className="relative z-10 mx-auto max-w-md">
                                     <span className="grid h-20 w-20 place-items-center rounded-full bg-white transition-all duration-300 group-hover:bg-white">
@@ -106,8 +106,8 @@ const Skills = () => {
                     {/* product - end */}
                     {/* product - start */}
                     <>
-                        <div className="mt-40 " data-aos="fade-down">
-                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                        <div className="lg:mt-40 " data-aos="fade-down">
+                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-6 lg:pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                                 <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-orange-400 transition-all duration-300 group-hover:scale-[10]" />
                                 <div className="relative z-10 mx-auto max-w-md">
                                     <div className="h-20 sm:h-20 xl:h-20 2xl:h-20">
@@ -177,8 +177,8 @@ const Skills = () => {
                     {/* product - end */}
                     {/* product - start */}
                     <>
-                        <div className=" mt-40" data-aos="fade-down">
-                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                        <div className=" lg:mt-40" data-aos="fade-down">
+                            <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-5 lg:pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                                 <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-[#20C4CB] transition-all duration-300 group-hover:scale-[10]" />
                                 <div className="relative z-10 mx-auto max-w-md">
                                     <span className="grid h-20 w-20 place-items-center rounded-full bg-white transition-all duration-300 group-hover:bg-white">
