@@ -10,7 +10,7 @@ const Education = () => {
 
     return (
         <section className='sticky top-0 hidden md:block'>
-            <div className="mx-auto bg-tertiary    max-w-screen-3xl px-4 py-10 sm:px-6 lg:px-0 mb-20">
+            <div className="mx-auto bg-tertiary    max-w-screen-3xl px-4 py-10 sm:px-6 lg:px-0 pb-40">
                 <h2 className="text-3xl text-white font-Rammetto_One  ml-20   text-start sm:text-3xl">
                     Education
                 </h2>

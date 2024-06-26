@@ -23,8 +23,8 @@ const Hero = () => {
     })
 
     return (
-        <section className=" sticky top-0  bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat hidden md:block" >
-            <div className="text-white body-font max-w-screen-xl pt-40  pb-56">
+        <section className=" sticky top-0   hidden md:block" >
+            <div className="bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat text-white body-font  pt-40  pb-56">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center" data-aos="fade-right">
 

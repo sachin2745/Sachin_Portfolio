@@ -82,7 +82,7 @@ const Contact = () => {
                                     id="name"
                                     value={formik.values.name}
                                     onChange={formik.handleChange}
-                                    className="block py-2.5 px-0 w-full text-xl text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
+                                    className="block py-2.5 px-0 w-full text-lg text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
                                     placeholder=" "
                                     required />
                                 {formik.touched.name && formik.errors.name ? (
@@ -97,7 +97,7 @@ const Contact = () => {
                                     id='email'
                                     value={formik.values.email}
                                     onChange={formik.handleChange}
-                                    className="block py-2.5 px-0 w-full text-xl text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
+                                    className="block py-2.5 px-0 w-full text-lg text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
                                     placeholder=" "
                                     required />
                                 {formik.touched.email && formik.errors.email ? (
@@ -111,7 +111,7 @@ const Contact = () => {
                                 <input type="text" id='subject'
                                     value={formik.values.subject}
                                     onChange={formik.handleChange}
-                                    className="block py-2.5 px-0 w-full text-xl text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
+                                    className="block py-2.5 px-0 w-full text-lg text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
                                     placeholder=" "
                                     required />
                                 {formik.touched.subject && formik.errors.subject ? (
@@ -126,7 +126,7 @@ const Contact = () => {
                                     id='message'
                                     value={formik.values.message}
                                     onChange={formik.handleChange}
-                                    className="block py-2.5 px-0 w-full text-xl text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
+                                    className="block py-2.5 px-0 w-full text-lg text-primary bg-transparent border-0 border-b-2 border-gray-300 appearance-none  focus:outline-none focus:ring-0 focus:border-white peer"
                                     placeholder=" "
                                     required />
                                 {formik.touched.message && formik.errors.message ? (
