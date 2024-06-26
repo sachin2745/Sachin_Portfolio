@@ -25,14 +25,15 @@ const Hero = () => {
     return (
         <section className=" sticky top-0   hidden md:block" >
             <div className=" body-font   ">
-                <div className="container bg-[url(bggg.png)] bg-cover bg-center bg-no-repeat mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-60  pb-64">
+                <img src="bggg.png" alt="" className="absolute object-cover w-full h-full" />
+                <div className="container  mx-auto flex px-5 py-24 md:flex-row flex-col items-center pt-60  pb-64">
                     <div className="ml-20 -mt-20 lg:flex-1 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  items-center text-center" data-aos="fade-right">
 
                         <p className="mb-2 leading-relaxed text-white uppercase font-bold font-Preahvihear">
                             Hello There, <br /> Welcome to   <span className=' text-primary '>My site</span>
                         </p>
                         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
-                            I'm <br />   Sachin <span className=' text-primary '>Kumar</span>
+                            I&apos;m <br />   Sachin <span className=' text-primary '>Kumar</span>
                         </h1>
                         <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-Rammetto_One">
                             A <br /> Full Stack <span className=' text-primary '>{typeEffect} </span>
