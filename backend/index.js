@@ -7,7 +7,7 @@ const contactFormRouter = require('./routers/contactFormRouter');
 
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:5173']
+    origin: 'https://sachin-portfolio-blue.vercel.app'
 }));
 
 app.use('/contactForm', contactFormRouter);
