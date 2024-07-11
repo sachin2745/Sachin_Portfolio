@@ -193,7 +193,7 @@ const Navbar = () => {
                                     About
                                 </a>
                                 <a
-                                    href="#experience"
+                                    href="#experiences"
                                     className="-mx-3 font-Englebert tracking-wider block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-primary"
                                 >
                                     Experience
