@@ -1,0 +1,26 @@
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 15px !important;
+    font-weight: 700;
+    text-transform: none !important;
+    color: #000 !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    background-color: #fff !important;
+    border-radius: 100%;
+    padding: 12px !important;
+    transition: background-color 0.3s, color 0.3s !important;
+}
+
+.swiper-button-prev:hover::after, 
+.swiper-button-next:hover::after {
+    background-color: #FF3131 !important;
+    color: #fff !important;
+}
+
+
+.swiper-slide{
+    width: 44% !important;
+    margin-right: 4% !important;
+}

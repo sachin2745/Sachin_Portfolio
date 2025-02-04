@@ -49,7 +49,7 @@ const HireMe = () => {
                                 </a> */}
                                 <button className="download-btn pixel-corners">
                                     <div className="button-content font-Jost tracking-wider">
-                                        <a href="https://drive.google.com/file/d/1QlXsMWMsyk7LsSoL09RIdgYW9ZBJptSH/view?usp=sharing" className="svg-container">
+                                        <a href="https://drive.google.com/file/d/1qwGsq2n11oyVyi7T6t7VT5P57QWZZIzr/view?usp=drive_link" className="svg-container">
                                             <svg
                                                 className="download-icon"
                                                 xmlns="http://www.w3.org/2000/svg"
